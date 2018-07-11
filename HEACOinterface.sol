@@ -1,9 +1,8 @@
-PMPinterface.sol
+HEACOinterface.sol
 
 // Abstract contract for the full ERC 20 Token standard
 // https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
 pragma solidity ^0.4.21;
-
 
 contract EIP20Interface {
     /* This is a slight change to the ERC20 base standard.
@@ -68,7 +67,30 @@ Showing  with 72 additions and 0 deletions.
 +import "./EIP20Interface.sol";
 +
 +
-+contract PMP is EIP20Interface {
++contract 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+is HEACOInterface {
 +
 +    uint256 constant private MAX_UINT256 = 2**256 - 1;
 +    mapping (address => uint256) public balances;
@@ -83,7 +105,17 @@ Showing  with 72 additions and 0 deletions.
 +    uint8 public decimals;             
 +    string public symbol;              
 +
-+    function PMP(
++    function 
+
+
+
+
+
+
+
+
+
+(
 +        uint256 _initialAmount,
 +        string _tokenName,
 +        uint8 _decimalUnits,
