@@ -1,2 +1,2 @@
-# Precious-Metal-Philippines-PMP-
+# Hybrid-Eco-System-Accredited-Coin-Offer
 ERC20 token
